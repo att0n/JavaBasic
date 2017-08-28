@@ -35,6 +35,15 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		if(num == 1) {
+			System.out.println("残りの所持金:" + (money-150));
+		}else if(num == 2) {
+			System.out.println("残りの所持金:" + (money-160));
+		}else if(num == 3) {
+			System.out.println("残りの所持金:" + (money-200));
+		}else {
+			System.out.println("1-3を選択してください");
+		}
 
 	}
 }
