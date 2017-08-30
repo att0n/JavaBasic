@@ -15,9 +15,15 @@ public class PTra15_02 {
 		Room room = new Java2Month();
 
 		// roomに格納されたJava2MonthインスタンスのgetCurriculumメソッドを呼び出してください
+		Java2Month j2m = new Java2Month();
+		String[] curriculumList = j2m.getCurriculum();
 
 
 		// 取得したカリキュラム情報を全て出力してください
+		System.out.println("カリキュラム情報");
+		for(int i=0; i<curriculumList.length; i++) {
+			System.out.println(curriculumList[i]);
+		}
 
 	}
 }
