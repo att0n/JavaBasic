@@ -19,6 +19,11 @@ public class PTra16_03 {
 	public static void main(String[] args) {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
+		Object obj = new Object();
+		obj.toString();
+		System.out.println("");
+		System.out.println(obj.toString() + "PTra16_03#toString()の処理");
 
 	}
+
 }
